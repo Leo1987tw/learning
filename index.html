@@ -1,11 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>迷子でもいい、前へ進め。- MyGO!!!!! 應援站</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- 引入字體 -->
+    <link href="https://googleapis.com" rel="stylesheet">
 </head>
 <body>
-    
+
+    <!-- 導覽列 -->
+    <nav>
+        <div class="logo">MyGO!!!!!</div>
+        <ul>
+            <li><a href="#about">簡介</a></li>
+            <li><a href="#members">成員</a></li>
+            <li><a href="#classic">經典</a></li>
+        </ul>
+    </nav>
+
+    <!-- 主視覺區 -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>迷子でもいい、前へ進め。</h1>
+            <p>即使迷茫，也要在那之中一直走下去。</p>
+            <button onclick="alert('既然要組，就要組一輩子！')">組一輩子樂團</button>
+        </div>
+    </header>
+
+    <!-- 簡介區 -->
+    <section id="about" class="section">
+        <h2 class="section-title">關於 MyGO!!!!!</h2>
+        <p class="desc">來自《BanG Dream!》的五人樂團。這不是青春熱血的童話，而是五個在人際關係中受傷、迷失的少女，在互相傷害與磨合中，最終決定「一生」共同前行的寫實故事。</p>
+    </section>
+
+    <!-- 成員卡片區 -->
+    <section id="members" class="section">
+        <h2 class="section-title">成員資料</h2>
+        <div class="member-grid">
+            <!-- 燈 -->
+            <div class="member-card" style="border-top: 5px solid #add8e6;">
+                <h3>高松 燈 (Vo.)</h3>
+                <p>「這就是我的吶喊。」</p>
+                <span>不擅言詞的筆記本少女。</span>
+            </div>
+            <!-- 愛音 -->
+            <div class="member-card" style="border-top: 5px solid #ffc0cb;">
+                <h3>千早 愛音 (Gt.)</h3>
+                <p>「這不是超完美的嗎？」</p>
+                <span>擅長社交（與逃避）的轉學生。</span>
+            </div>
+            <!-- 樂奈 -->
+            <div class="member-card" style="border-top: 5px solid #ffffff;">
+                <h3>要 樂奈 (Gt.)</h3>
+                <p>「有趣的地方，有抹茶。」</p>
+                <span>隨性自在的天才野貓。</span>
+            </div>
+            <!-- 爽世 -->
+            <div class="member-card" style="border-top: 5px solid #ffdb58;">
+                <h3>長崎 爽世 (Ba.)</h3>
+                <p>「為什麼要演奏春日影！」</p>
+                <span>優雅背後藏著最沉重的執念。</span>
+            </div>
+            <!-- 立希 -->
+            <div class="member-card" style="border-top: 5px solid #fa8072;">
+                <h3>椎名 立希 (Dr.)</h3>
+                <p>「妳滿腦子都只想到自己呢。」</p>
+                <span>外冷內熱的毒舌守護者。</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- 經典台詞/梗 -->
+    <section id="classic" class="section bg-dark">
+        <h2 class="section-title">名台詞回顧</h2>
+        <div class="quotes">
+            <blockquote>「既然妳要組，那就組一輩子。」</blockquote>
+            <blockquote>「妳這傢伙，滿腦子都只想到自己呢。」</blockquote>
+            <blockquote>「為什麼要演奏春日影！！！」</blockquote>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 MyGO!!!!! Fan Site - 一輩子不離不棄</p>
+    </footer>
+
 </body>
 </html>
